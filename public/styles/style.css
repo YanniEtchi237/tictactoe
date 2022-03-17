@@ -1,0 +1,45 @@
+.game-board
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+	
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+}
+.box
+{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.game-control
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: 'Hubballi', cursive;
+}
+.restart-button{
+    background-color:#F08080 ;
+    height: 40px;
+    width : 80px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-family: 'Hubballi', cursive;
+    font-size: large;
+    cursor: pointer;
+}
